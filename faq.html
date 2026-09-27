@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Velvet & Brass - FAQ e Contato</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🎷 Velvet & Brass Jazz Sessions</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="lineup.html">Line-up</a>
+      <a href="ingressos.html">Ingressos</a>
+      <a href="informacoes.html">Informações</a>
+      <a href="faq.html" class="ativo">FAQ & Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Dúvidas Frequentes</h2>
+
+    <div class="grade">
+      <div class="card">
+        <h3>1. Qual a idade mínima?</h3>
+        <p>Classificação livre. Menores de 16 anos devem estar acompanhados.</p>
+      </div>
+
+      <div class="card">
+        <h3>2. Tem estacionamento?</h3>
+        <p>Não há no local. Recomendamos ir de Metrô (Estação Brigadeiro).</p>
+      </div>
+
+      <div class="card">
+        <h3>3. O local é acessível?</h3>
+        <p>Sim, o espaço conta com rampas e banheiros adaptados para PCD.</p>
+      </div>
+    </div>
+
+    <h2>Fale Conosco</h2>
+    <div class="formulario">
+      <form onsubmit="event.preventDefault(); alert('Mensagem enviada com sucesso!');">
+        <div class="campo">
+          <label>Nome:</label>
+          <input type="text" placeholder="Seu nome completo" required>
+        </div>
+        <div class="campo">
+          <label>E-mail:</label>
+          <input type="email" placeholder="seu@email.com" required>
+        </div>
+        <div class="campo">
+          <label>Mensagem:</label>
+          <textarea rows="4" placeholder="Escreva sua dúvida..." required></textarea>
+        </div>
+        <button type="submit" class="botao">Enviar Mensagem</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 Velvet & Brass Jazz Sessions • São Paulo - SP</p>
+  </footer>
+
+</body>
+</html>
